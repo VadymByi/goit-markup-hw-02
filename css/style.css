@@ -11,14 +11,13 @@
   --grey: rgba(46, 47, 66, 0.7);
   --white: #fff;
   --dairy: #fcfcfc;
-  --fonts: "Roboto", san-serif;
 }
 
 body {
-  font-family: var(--fonts);
+  font-family: "Roboto", san-serif;
   font-size: 16px;
   font-weight: 400;
-  color: var(--navy-blue);
+  color: var(--slate);
   background-color: var(--white);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -50,8 +49,11 @@ button:focus {
   background: var(--ocean);
 }
 
+address {
+  font-style: normal;
+}
+
 .container {
-  width: 1128px;
 }
 
 .section-title {
@@ -59,9 +61,10 @@ button:focus {
   font-size: 36px;
 
   /* line-height: 40px; */
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .section-subtitle {
@@ -77,12 +80,18 @@ button:focus {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   /* line-height: 21px; */
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-span {
+  color: var(--navy-blue);
 }
 
 /* !HEADER */
@@ -117,27 +126,24 @@ button:focus {
   background: var(--navy-blue);
 }
 .about-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
   /* line-height: 60px; */
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
 }
 .about-btn {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  font-weight: 500;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--white);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  .about-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background: var(--iris);
+  }
 }
 
 /* !Section Benefits */
@@ -170,6 +176,7 @@ button:focus {
 .team-list {
 }
 .team-list-item {
+  color: var(--slate);
   background: var(--white);
 }
 .team-list-item-img {
@@ -193,12 +200,15 @@ button:focus {
 .portfolio-list-item-subtitle {
 }
 .portfolio-list-item-text {
+  color: var(--slate);
 }
 
 /* !Footer */
 .footer {
+  background: var(--navy-blue);
 }
 .footer-logo {
 }
 .footer-desc {
+  color: var(--cloud);
 }
