@@ -74,6 +74,7 @@ address {
   /* line-height: 24px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .section-text {
@@ -92,6 +93,10 @@ address {
 
 .logo-span {
   color: var(--navy-blue);
+}
+
+.logo-span-footer {
+  color: var(--cloud);
 }
 
 /* !HEADER */
@@ -136,14 +141,13 @@ address {
   color: var(--white);
 }
 .about-btn {
-  .about-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--white);
-    background: var(--iris);
-  }
+  font-family: "Roboto", san-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background: var(--iris);
 }
 
 /* !Section Benefits */
